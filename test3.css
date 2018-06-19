@@ -1,0 +1,62 @@
+body 
+        {
+
+            background: coral!important;
+            
+        }    
+
+#first
+
+    {
+
+        width: 500px;
+        height: 200px;
+        background: white;
+        opacity: 0.6;
+        margin: 25px auto;
+        border: solid 2px #ff3819;
+        padding: 10px;
+    }
+
+.second {
+    opacity: 100;
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+}
+.third {
+    opacity: 100;
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+}
+
+.koutaki{
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.header
+{
+    text-align: center;
+}
+
+.animation {
+
+    
+    width: 80px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    animation: mymove 5s infinite;
+    display: block;
+    line-height: 30px;
+
+}
+
+@keyframes mymove {
+    from {top: -170px;}
+    to {top: 40px;}
+
+}
+
